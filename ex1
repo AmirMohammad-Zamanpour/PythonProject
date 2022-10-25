@@ -1,1 +1,26 @@
+#EX1_1
+def plasone(one) :
+ result = one + 1
+ return result
+ 
+print(plasone(1))
 
+
+
+
+
+#EX1_2
+def area(height,base) :
+ result = base*height/2
+ return result
+ 
+print (area(5,4))
+
+
+
+#EX1_3
+def maxside3(side1,side2) :
+ result = side1+side2
+ return result
+ 
+print (maxside(5,4))
