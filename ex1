@@ -24,3 +24,16 @@ def maxside3(side1,side2) :
  return result
  
 print (maxside(5,4))
+
+
+
+#EX1_4
+def week(day) :
+ if day1 == 1 :
+  result = "shanbe"
+ if day1 == 2 :
+  result = "yekshanbe"
+  
+ return result
+ 
+print (week(1))
