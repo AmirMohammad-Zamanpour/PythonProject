@@ -1,0 +1,32 @@
+Amir.m.Zamanpour : 4013333321
+
+def ((Bishop),(Knight)) ((Variable,number) & (Variable,number)):
+	###
+	T=(a,b,c,d,e,g,h)
+	U=(1,2,3,4,5,6,7,8)
+	###
+	
+	if T!=(a,b,c,d,e,f,g,h): Horizontal input is not a proper letter
+	###
+	n=(q,w,r,t,y,u,i,o,p,s,j,k,l,z,x,v,n,m)
+	###
+	if T=(na,nb,nc,nd,ne,nf,ng,nh):Horizontal input is not a letter
+	if U!=(1,2,3,4,5,6,7,8):Vertical input for knight is not a proper number
+	###
+	Bishop: Move in diagonal form
+	Knight: Move in form L
+	a+1=b , b+1=c ,c+1=d, d+1=e , e+1=f, f+1=g, g+1=h , a+2=c, c+2=e, e+2=g, b+2=d, d+2=f,
+	f+2=h, a+3=d, d+3=g, b+3=e, e+3=h, c+3=f, 
+	###
+	while T>8 => false , 1>T=> false , U=n => false:
+		Bishop=(X,Y) => X+1 , Y+1
+		Knight=(G,H) => G+3 , H+1
+		if Bishop kick Knight: =>Bishop can attack knight
+		if knight kick Bishop: => Knight can attack bishop
+		if Bishop== Knight: =>They can't be in the same square
+		if Bishop != Knight: =>Neither of them can attack each other
+		
+		
+		
+Print((Bishop,Knight((e,6) & (b,3))):
+		Bishop can attack knight
